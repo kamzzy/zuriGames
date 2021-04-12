@@ -1,0 +1,71 @@
+
+   
+li a {
+    color: black;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+.join{
+    background-color: red; 
+    color:white;
+}
+
+h5{
+    color: rgba(0, 0, 0, 0.529);
+}
+.signin{
+    background-color: #FFE9E3;
+    padding-top:3%;
+    padding-left:30%;
+    padding-right: 30%;
+    
+
+}
+/* .photo{
+    background-image: url("images/bgImage.png");
+} */
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+input {
+    width: 70%;
+    padding-left: 30px;
+    /* text-align: center; */
+   
+}
+.icons{
+    margin: 30px;
+}
+.fa-check{
+   background-color: red;
+   margin: 2px;
+   color: white;
+}
+.terms{
+    margin: 20px;
+    font-size: smaller;
+    
+}
+.alt{
+    margin-left: 80px;
+    font-size: smaller;
+}
+.fa-check-circle{
+    color: red;
+}
