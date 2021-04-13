@@ -4,41 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha584-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ5oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/7967e81f77.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="contain">
-        <nav class="navbar navbar-expand-md justify-content-center photo">
+        <nav class="navbar navbar-expand-md  photo">
             <a class="navbar-brand" href="#">
-                <img src="images/Zuri logo-2.png" alt="Logo" style="width:80px; height: 90px; ">
+                <img src="images/Zuri logo-2.png" alt="Logo">
               </a>
-
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myNavigation" aria-controls="myNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link home" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link join" href="signup.html">Join Here</a>
-              </li>
-            </ul>
-        </div>
+            <div class="nav-container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link home" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item nav-button">
+                      <a class="nav-link join" href="signup.html">Join Here</a>
+                    </li>
+                  </ul>
+            </div>
         </nav>
 
         <div class="row photo">
@@ -54,12 +50,13 @@
                 <img src="images/nav-link.png">
                 </a>
             </div>
-            <div class="col-sm "  >
+            <div class="col-sm form-container"  >
               
               <form class="signin">
                 <h5 style="color: red;">
-                    Join over 20 Thousand mentees <br>learning right now from around the globe <br>
-                    in the Zuri slack channel
+                    Join over 20 Thousand <br>
+                    mentees learning right now from ar-
+                    <br>ound the globe in the Zuri slack channel
                   </h5>
                   <p id="para">
                     Master the language of web <br> HTML, CSS, Javascript, <br>
@@ -83,10 +80,10 @@
                 <i  class="fas fa-check"></i>
                 <p class="terms">I agree to all the statement included in <span style="color: red;">Terms of Use </span>
               </p>
-            <div>
+            <div class='form-button-container'>
                 <input type="submit" id="formSubmit" value="Start learning now" >
-            
           </div>
+          <hr class='hr-submit'>
           <p class="alt">
             Or continue with these Profiles
         </p>
@@ -101,10 +98,9 @@
             <img alt="gmail" src="images/Vector-3.png">
          </a>
         </div>
-          <p style="padding-bottom: 15%;">Already a member? <span style="color: red;">here </span> </p>
+          <p class='member' style="padding-bottom: 15%;">Already a member? <span style="color: red;">here </span> </p>
         </div>
-       
-              </form>
+        </form>
      </div>
      </div>
      </div>
