@@ -7,10 +7,35 @@
 li a {
     color: black;
 }
+
+.navbar{
+    display: flex;
+    width: 86vw;
+    height: 100px;
+    justify-content: space-between;
+}
+
 .navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.navbar-brand > img {
+    margin-top: 15px;
+    width:120px; 
+    height: 90px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-button {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 .join{
     background-color: red; 
     color:white;
@@ -19,14 +44,13 @@ li a {
 h5{
     color: rgba(0, 0, 0, 0.529);
 }
+
 .signin{
     background-color:white;
     padding-top:3%;
     padding-left:10%;
     padding-right: 10%;
     margin-right: 10%;
-    
-
 }
 
 .input-icons i {
@@ -37,7 +61,6 @@ h5{
     width: 100%;
     margin-bottom: 10px;
     margin-left: 50px;
-
 }
   
 .icon {
