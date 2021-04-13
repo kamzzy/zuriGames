@@ -11,13 +11,19 @@
 </head>
 <body>
     <div class="container">
+        <div class="contain">
         <nav class="navbar navbar-expand-md justify-content-center photo">
             <a class="navbar-brand" href="#">
-                <img src="images/Zuri logo.png" alt="Logo" style="width:80px; height: 90px; ">
+                <img src="images/Zuri logo-2.png" alt="Logo" style="width:80px; height: 90px; ">
               </a>
+
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myNavigation" aria-controls="myNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" style="color: red;" href="#">Home</a>
+                <a class="nav-link home" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -32,14 +38,15 @@
                 <a class="nav-link join" href="signup.html">Join Here</a>
               </li>
             </ul>
+        </div>
         </nav>
 
         <div class="row photo">
-             <div class="col-sm" style="margin-top: 15%;">
+             <div class="col-sm" style="margin-top: 10%; margin-left: 5%; color: white;">
               <h1>
                 Unleash your creativity by learning from the best.
               </h1>
-              <h5>
+              <h5 style="color: white;">
                 Learn from experts  around the world and upskill yourself in the digital world, 
                 in whatever profession you choose to dive into.
               </h5>
@@ -47,17 +54,18 @@
                 <img src="images/nav-link.png">
                 </a>
             </div>
-            <div class="col-sm signin"  >
-              <h5 style="color: red; text-align: center;">
-                Join over 20 Thousand mentees <br>learning right now from around the globe <br>
-                in the Zuri slack channel
-              </h5>
-              <p style="color: red; text-align: center;">
-                Master the language of web, HTML, CSS, Javascript, <br>
-                Backend/Server side languages, UI/UX design,<br> Mobile app developmet 
-                and build interactive web apps 
-              </p>
-              <form>
+            <div class="col-sm "  >
+              
+              <form class="signin">
+                <h5 style="color: red;">
+                    Join over 20 Thousand mentees <br>learning right now from around the globe <br>
+                    in the Zuri slack channel
+                  </h5>
+                  <p id="para">
+                    Master the language of web <br> HTML, CSS, Javascript, <br>
+                    Backend/Server side languages, UI/UX design,<br> Mobile app development
+                    and build interactive web apps 
+                  </p>
              <div class="input-icons">
                 <div class="icons">
                 <i class="fas fa-envelope icon"></i>
@@ -76,12 +84,13 @@
                 <p class="terms">I agree to all the statement included in <span style="color: red;">Terms of Use </span>
               </p>
             <div>
-            <input type="image" value="submit" src="images/Group 4.png" alt="Submit">
+                <input type="submit" id="formSubmit" value="Start learning now" >
+            
           </div>
           <p class="alt">
             Or continue with these Profiles
         </p>
-        <div style="margin-left: 20%; ">
+        <div class="socials">
         <a href="#" style="padding: 2%;">
             <img alt="gmail" src="images/Vector.png">
          </a>
@@ -92,16 +101,17 @@
             <img alt="gmail" src="images/Vector-3.png">
          </a>
         </div>
-         <p style="margin-left: 20%;">Already a member? <span style="color: red;">here </span> </p>
+          <p style="padding-bottom: 15%;">Already a member? <span style="color: red;">here </span> </p>
         </div>
        
               </form>
      </div>
      </div>
+     </div>
      <div style="margin: 5%;">
         <h1 style="color: red;">About Us</h1>
         <a >
-            <img style="height: 115px; width: 100%;" src="images/Group 7.png">
+            <img style="width: 100%;" src="images/Group 7.png">
         </a>
     </div>
     <div class="row" >
@@ -170,22 +180,22 @@
      <div style="margin: 5%;">
          <h1 style="color: red;"> Services</h1>
          <a >
-            <img style="height: 115px; width: 100%;" src="images/Group 8.png">
+            <img style="width: 100%;" src="images/Group 8.png">
         </a>
      </div>  
      <div class="row" >
         <div class="col-sm m-5"style="background-color:#FFE9E3; padding: 2%; text-align: center; ">
-           <a  >
+           <a>
             <img style="height: 115px;" src="images/html.png">
         </a>
         </div>
             <div class="col-sm m-5"style="background-color:#FFE9E3; padding: 2%; text-align: center;">
-                <a >
+                <a>
                     <img style="height: 115px;" src="images/azure.png">
                 </a>
             </div>
             <div class="col-sm m-5"style="background-color:#FFE9E3; padding: 2%; text-align: center;">
-                <a >
+                <a>
                     <img style="height: 115px;" src="images/java.png">
                 </a>
             </div>
@@ -208,45 +218,45 @@
                 </div>
             </div>
            <div>
-            <a >
+            <a>
                 <img style="width: 100%;" src="images/Group 9.png">
             </a>
            </div>
            <div>
-               <h3 style="color: red;">
+               <h3 style="color: red; margin-top: 5%; margin-bottom: 3%;">
                 What our famous Mentees felt <br> 
                 with a humor of gratitude
                </h3>
-               <h6 style="color: rgba(0, 0, 0, 0.529);">
+               <h6 style="color: rgba(0, 0, 0, 0.529);margin-bottom: 5%; ">
                 Zuri Training have trained thousand of young <br>
                 Africans from Nigerian, Senegal and Ghana <br>
                 to improve their financial needs and help 
                 the community
                </h6>
            </div>
-           <div class="row" style="width: 100%;" >
+           <div class="row" style="margin-bottom: 5%;" >
             <div class="col-sm m-2"style="background-color:#FFE9E3;  text-align: center;">
                 <a >
-                    <img style="height: 255px; width: 100%;" src="images/Frame 45-3.png">
+                    <img style="width: 100%;" src="images/Frame 45-4.png">
                 </a>   
             </div>
                 <div class="col-sm m-2"style="background-color:#FFE9E3;  text-align: center;">
                     <a >
-                        <img style="height: 255px; width: 100%;" src="images/Frame 46-3.png">
+                        <img style="width: 100%;" src="images/Frame 46-4.png">
                     </a>
                 </div>
                 <div class="col-sm m-2"style="background-color:#FFE9E3; text-align: center;">
                     <a >
-                        <img style="height: 255px; width: 100%;" src="images/Frame 47-2.png">
+                        <img style="width: 100%;" src="images/Frame 47-3.png">
                     </a>
                 </div>
             </div>
-        <div>
+        <div style="margin-bottom: 3%;">
             <a >
-                <img style="height: 255px; width: 100%;" src="images/Group 9-2.png">
+                <img style="width: 100%;" src="images/Group 10.png">
             </a>   
         </div>
-           <p> Alright reserved Zuri Training 2021 </p>
+           <p style="margin-left: 10%;"> Alright reserved Zuri Training x I4G Circle 2021 </p>
  </div>
 </body>
 </html>

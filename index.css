@@ -1,4 +1,8 @@
-
+.contain{
+    background-image: url("images/Pexels\ Photo\ by\ Anni\ Roenkae.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
    
 li a {
     color: black;
@@ -16,16 +20,14 @@ h5{
     color: rgba(0, 0, 0, 0.529);
 }
 .signin{
-    background-color: #FFE9E3;
+    background-color:white;
     padding-top:3%;
-    padding-left:30%;
-    padding-right: 30%;
+    padding-left:10%;
+    padding-right: 10%;
+    margin-right: 10%;
     
 
 }
-/* .photo{
-    background-image: url("images/bgImage.png");
-} */
 
 .input-icons i {
     position: absolute;
@@ -43,14 +45,18 @@ h5{
     min-width: 40px;
 }
   
-input {
-    width: 70%;
+.signin input {
+    width: 100%;
     padding-left: 30px;
-    /* text-align: center; */
+    border: 1px solid red;
+    background-color: #FAF2F0;
    
 }
 .icons{
-    margin: 30px;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
 .fa-check{
    background-color: red;
@@ -63,9 +69,35 @@ input {
     
 }
 .alt{
-    margin-left: 80px;
+    margin-left: 3%;
     font-size: smaller;
+    margin-top: 2%;
 }
 .fa-check-circle{
     color: red;
+}
+#para{
+   color: red;
+   font-size: smaller;
+   margin-top: 5%;
+}
+#formSubmit{
+    background-color: red;
+     color: white; 
+     width: 70%;
+     padding-right: 25%;
+}
+.socials{
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.socials img{
+    width: 25px;
+}
+.nav-link{
+    color: white;
+}
+.home{
+    text-decoration: underline;
+    text-decoration-color: red;
 }
