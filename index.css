@@ -41,16 +41,25 @@ li a {
     color:white;
 }
 
+.form-container{
+}
+
 h5{
     color: rgba(0, 0, 0, 0.529);
 }
 
 .signin{
     background-color:white;
-    padding-top:3%;
+    width: 400px;
+    padding-top:5%;
     padding-left:10%;
     padding-right: 10%;
     margin-right: 10%;
+    border-radius: 8px;
+}
+
+.signin > h5 {
+    font-size: 18px
 }
 
 .input-icons i {
@@ -58,9 +67,11 @@ h5{
 }
   
 .input-icons {
-    width: 100%;
+    width: 300px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .icon {
@@ -79,22 +90,52 @@ h5{
     margin-right: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
-    
 }
+
+.icons > input{
+    width: 270px;
+    border-radius: 5px;
+}
+
+.form-button-container {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+}
+
+.form-button-container > input {
+    border-radius: 5px;
+    margin: auto;
+}
+
 .fa-check{
    background-color: red;
    margin: 2px;
    color: white;
 }
+
 .terms{
     margin: 20px;
-    font-size: smaller;
-    
+    font-size: 10px;  
 }
+
+.hr-submit{
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
 .alt{
-    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     font-size: smaller;
     margin-top: 2%;
+}
+
+.member{
+    text-align: center;
 }
 .fa-check-circle{
     color: red;
@@ -111,11 +152,12 @@ h5{
      padding-right: 25%;
 }
 .socials{
-    margin-left: 15%;
-    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
 }
 .socials img{
     width: 25px;
+    margin: 5px 10px;
 }
 .nav-link{
     color: white;
